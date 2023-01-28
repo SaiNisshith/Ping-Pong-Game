@@ -1,0 +1,90 @@
+.heading{
+    text-align: center;
+    
+    color:black;
+    font-size: 2.5em;
+    margin: 2px 0 0 0 ;
+}
+body{
+    margin: 0;
+    font-family:cursive;
+}
+#page{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.details{
+    box-sizing: border-box;
+    text-align: center;
+    width: 15vw;
+    height: 85vh;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.5px; */
+    justify-content:space-between;
+    border-radius: 5px;
+    /* display: flex; */
+    background-color: whitesmoke;
+}
+.info{
+    border-bottom: 2px solid grey;
+    border-radius: 5px;
+    background-color:rgb(241, 253, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:33%;
+    font-size: 1.25em;
+}
+.info h2{
+    color: brown;
+}
+.info h1{
+    color: crimson;
+}
+#container{
+    box-sizing: border-box;
+    text-align: center;
+    width: 75vw;
+    height: 85vh;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    /* padding: 0.5px; */
+    justify-content: center;
+    border-radius: 5px;
+    /* display: flex; */
+    background-color: whitesmoke;
+}
+.rod{
+    box-sizing: border-box;
+    padding: 0.3em;
+    color: azure;
+    border-radius: 5em;
+    height: 1.9em;
+    width:14em;
+}
+.ball{
+    background-color: red;
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1.9em;
+    /* left: 49%; */
+}
+.rod1{
+    background-color: blue;
+    position: absolute;
+    top:0px;
+    /* left: 40%; */
+}
+.rod2{
+    background-color: violet;
+    position: absolute;
+    bottom: 0px;
+    /* left: 40%; */
+}
